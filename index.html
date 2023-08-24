@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <main>
+       <div class="body_container">
+
+        <div class="container">
+
+
+            <div class="info">
+                <h1>Candidates informations :</h1>
+            </div>
+
+
+            <div class="first_row">
+                <div class="col_1">
+                    <p class="input_txt" id="first_name">First Name</p>
+                    <input type="text" id="input_border" placeholder="Name">
+                </div>
+                <div class="col_2">
+                    <p class="input_txt" id="linkedin">Linkedin profile</p>
+                    <input type="text" id="input_border" placeholder="URL">
+                </div>
+            </div>
+
+
+
+            <div class="first_row">
+                <div class="col_1">
+                    <p class="input_txt" id="last_name">Last Name</p>
+                    <input type="text" id="input_border" placeholder="Last">
+                </div>
+                <div class="col_2">
+                    <p class="input_txt" id="github">Github profile</p>
+                    <input type="text" id="input_border" placeholder="URL">
+                </div>
+            </div>
+
+
+
+            <div class="first_row">
+                <div class="col_1">
+                    <p class="input_txt" id="birthday">Birthday</p>
+                    <input type="date" id="input_border">
+                </div>
+                <div class="col_2">
+                    <p class="input_txt" id="experience">Years of experience</p>
+                    <input type="text" id="input_border" placeholder="Years">
+                </div>
+            </div>
+
+            <div class="first_row">
+                <div class="col_1">
+                    <p class="input_txt" id="email">Email address</p>
+                    <input type="text" id="input_border" placeholder="Email">
+                </div>
+            </div>
+
+
+
+            <div class="foot_container">
+                <div class="gender">
+                    <fieldset class="field_op">
+                        <legend>Choose your gender</legend>
+                        <select name="" id="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </fieldset>    
+                </div>
+
+                <div class="more_info">
+                    <textarea name="" id="text-area" cols="50" rows="7" placeholder="Text me"></textarea>
+                    <div class="img_send">
+                        <p>Select an img: <input type="file" accept="image/*"></p>
+                        <button class = "send">Send</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+       </div> 
+
+        <div class="footer_info">
+                <fieldset class="footer_field">
+                    <legend align="center"><img src="Image.png" alt="" class="img" id="choose_file"></legend>
+                    <p>Profile Details</p>
+                </fieldset>
+        </div>
+
+        
+
+    </main>
+    
+</body>
+</html>
